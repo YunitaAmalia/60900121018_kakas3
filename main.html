@@ -1,15 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>menu</title>
+<style>
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu li {
+      display: inline-block;
+      margin-right: 7px; /* Jarak antara menu item */
+    }
+  
+    .menu a {
+      text-decoration: none;
+      padding: 20px 20px;
+      background-color: #1E7F65; /* Warna latar belakang */
+      color: #fff; /* Warna teks */
+      border-radius: 0px; /* Sudut elemen melengkung */
+    }
+  
+    .menu a:hover {
+      background-color: #1E7F65; /* Warna latar belakang saat hover */
+      color: #2D8E74; /*Warna teks*/
+    }
+
+    .horizontal {
+            display: flex;
+            align-items: center;
+            justify-content:left;
+            height: 100vh;
+            justify-content: space-between;
+            margin: 5px; /* Jarak antara menu item */
+      
+    }
+  </style>
 </head>
 <body>
-    <h1>itahaha</h1>
-    <h2>HHHHH</h2>
-    <h3>TESSSSS</h3>
-    <h1>Ini adakH</h1>
-    <P>Riangdana Jurmasari</P>
+        <div class="menu">
+            <ul>
+                <div class="horizontal">
+                <li><a href="menu.html">Home</a><a href="about.html">About</a><a href="service.html">Service</a><a href="contact.html">Contact</a><a href="login.html">Login</a> </li>
+                <li><h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"> Home </h1></li>
+                <li><p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet velit nec magna aliquet interdum. Proin consequat, felis eget commodo lobortis, elit massa consequat sapien, vel pulvinar nisl eros ut magna. Sed eget luctus nibh. Vivamus ut sodales libero. In hac habitasse platea dictumst. Sed euismod tortor ut odio feugiat, eget lobortis nibh malesuada. Maecenas eget rhoncus ligula</p></li>
+                </div>
+            </ul>
+        </div>
 </body>
 </html>
+  
